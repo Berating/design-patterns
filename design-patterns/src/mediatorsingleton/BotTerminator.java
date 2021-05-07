@@ -19,7 +19,7 @@ private static BotTerminator instance;
 		
 	}
 	
-	public boolean messageSetings(String message) {
+	public boolean messageCheck(String message) {
 		
 		if(message.contains("Cat")) {
 			
