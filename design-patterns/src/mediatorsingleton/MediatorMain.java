@@ -12,10 +12,10 @@ public class MediatorMain {
 		User user3 = new ChatUser(chat, "Gosho");
 		
 		
-		user2.send("Hi, lads!");
-		user3.send("addBot");
-		user1.send("Cat");
-		user3.send("Get to the Choppah!");
+		user2.send("Hi, lads! ");
+		user3.send("addBot ");
+		user1.send("Cat ");
+		user3.send("Get to the Choppah! ");
 	}
 
 }
