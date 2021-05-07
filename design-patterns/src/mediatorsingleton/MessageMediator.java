@@ -6,6 +6,6 @@ public interface MessageMediator {
 	
 	void sendMessage(String message, User user);
 	
-	void removeUser(User user);
+	void removeUser(User user); 
 	
 }
