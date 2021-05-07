@@ -28,7 +28,7 @@ public class Chat implements MessageMediator {
 		if(botTerminator != null) {
 			this.users.remove(user);	
 			
-			if(botTerminator.messageSetings(message)){
+			if(botTerminator.messageCheck(message)){
 				
 				for(User chatUser : this.users) {		
 					if(user != chatUser) {
