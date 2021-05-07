@@ -10,7 +10,7 @@ public class ChatUser extends User {
 	@Override
 	public void send(String message) {
 		
-		System.out.println(this.name + " sends: " + message);
+		System.out.println(this.name + "  sends: " + message);
 		Mediator.sendMessage(message, this);
 
 	}
@@ -18,7 +18,7 @@ public class ChatUser extends User {
 	@Override
 	public void receive(String message) {
 		
-		System.out.println(this.name + " received: " + message);
+		System.out.println(this.name + "  received: " + message);
 
 	}
 
